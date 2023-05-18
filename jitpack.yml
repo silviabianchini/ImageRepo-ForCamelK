@@ -3,6 +3,7 @@ jdk:
 before_install:
   - sdk install java 11.0.18-oracle
   - sdk use java 11.0.18-oracle
+  - cd ./demo
   - sdk install maven
   - mvn -v
 install:
